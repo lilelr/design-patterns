@@ -8,3 +8,6 @@ add_executable(file_type ${file_type_SRCS})
 set(decorator_SRCS decorator.cpp)
 add_executable(decorator ${decorator_SRCS})
 
+set(share_SRCS share.cpp)
+add_executable(share ${share_SRCS})
+
